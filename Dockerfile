@@ -38,6 +38,7 @@ RUN apt-get update && \
 		--no-install-recommends \
         make \
         python-pygments \
-		texlive-full && \
+        hunspell hunspell-tools hunspell-de-de hunspell-en-us hunspell-en-gb \
+		    texlive-full && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/
