@@ -1,0 +1,7 @@
+build-container.sh
+hooks/build
+.hadolint.yaml
+Dockerfile
+.gitignore
+.LICENSE
+README.md
